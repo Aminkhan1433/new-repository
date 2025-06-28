@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    text-align: center;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+
+.ikki{
+    display: one;
+}
+
+
+
+
+
+
+header button{
+    width: 174px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #BA4270;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+
+
+.headerbtm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.headerbtm p{
+    font-size: 52px;
+    width: 546px;
+    height: 243px;
+    text-align: center;
+}
+
+
+
+@media (max-width:768px) {
+    .headerbtm{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+main div{
+    width: 445px;
+}
+
+
+
+@media (max-width:768px) {
+    main{
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    main div img{
+        width: 300px;
+    }
+}
+
+
+
+.footertp {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+
+
+footer {
+    background-image: url(./Bitmap.png);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    margin-top: 60px;
+    width: 100%;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30%;
+}
+
+
+
+@media (max-width:420px) {
+    main img,p{
+        width: 400px;
+    }
+
+
+    .footertp{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    footer{
+        flex-direction: column;
+        height: 250px;
+    }
+
+    footer div{
+        padding-right: 90px;
+    }
+
+    .images{
+        padding-left: 50px;
+    }
+
+
+    header div{
+        display: none;
+    }
+
+    header .ikki{
+        display: block;
+    }
+
+
+    .headerbtm {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .headerbtm p{
+        width: 400px;
+        margin-right: 40px;
+    }
+
+
+    .headerbtm img{
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .as{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        margin-left: 88px;
+    }
+
+
+}
